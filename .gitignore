@@ -1,0 +1,32 @@
+# Local data, credentials and exports
+/data/
+/src-tauri/data/
+**/data/cache/
+**/data/backups/
+exports/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.dpapi
+*.pem
+*.key
+*-key.json
+.env
+.env.*
+!.env.example
+
+# Local work, logs, build output and dependencies
+/.publish-work-*/
+/moligod-publish/
+*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+node_modules/
+dist/
+.tauri/
+target/
